@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="home.css">
+</head>
+<body>
+<script src="https://fastly.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+<script>
+    $('.carousel').carousel({
+        interval: 2000
+    })
+</script>
+<!-- 第一部分 -->
+<a name="首页"></a>
+<div class="head">
+    <img src="./图片/Title.png" alt="" class="logo">
+    <div class="con">
+        <a href="#首页"class="a">首页</a>
+        <a href="#内容"class="a">内容</a>
+        <a href="#视频"class="a">视频</a>
+        <a href="#联系"class="a">联系</a>
+    </div>
+</div>
+<!-- 第二部分 -->
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="./图片/1.jpg" alt="图片加载错误">
+            <div class="carousel-caption">
+                <p class="txt">图片1</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="./图片/2.jpg" alt="图片加载错误">
+            <div class="carousel-caption">
+                <p class="txt">图片2</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="./图片/3.jpg" alt="图片加载错误">
+            <div class="carousel-caption">
+                <p class="txt">图片3</p>
+            </div>
+        </div>
+    </div>
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span></a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span></a>
+</div>
+<!-- 第三部分 -->
+<div class="aaa">
+    <div class="border"></div>
+    <a name="简介"></a>
+    <p class="txt1"><a href="https://baike.baidu.com/item/%E5%95%86%E4%B8%98%E5%8F%A4%E5%9F%8E/2486591?fr=aladdin">商丘古城</a>
+        是国家历史文化名城、全国重点文物保护单位、国家AAAA级旅游景区、国家水利风景区，位于
+        <a href="https://baike.baidu.com/item/%E7%9D%A2%E9%98%B3%E5%8C%BA/2366870">河南省商丘市睢阳区</a>。
+        它是世界上唯一一座集八卦城、水中城、城摞城三位一体的大型古城遗址，曾获评“中国华侨国际文化交流基地”。</p>
+    <div class="border"></div>
+    <a name="内容"></a>
+    <ul class="wrap">
+        <li><img src="./图片/4.jpeg"></li>
+        <li><img src="./图片/5.jpeg"></li>
+        <li><img src="./图片/6.jpeg"></li>
+        <li><img src="./图片/7.jpg"></li>
+        <li><img src="./图片/8.jpeg"></li>
+        <li><img src="./图片/9.jpeg"></li>
+    </ul>
+    <!-- 第四部分 -->
+    <div class="tb">
+        <img src="./图片/Symbol.jpg">
+        <img src="./图片/Symbol.jpg">
+        <img src="./图片/Symbol.jpg">
+        <img src="./图片/Symbol.jpg">
+        <img src="./图片/Symbol.jpg">
+        <img src="./图片/Symbol.jpg">
+        <img src="./图片/Symbol.jpg">
+        <img src="./图片/Symbol.jpg">
+        <img src="./图片/Symbol.jpg">
+        <img src="./图片/Symbol.jpg">
+    </div>
+    <div class="border"></div>
+</div>
+<!-- 第五部分 -->
+<div class="models">
+    <a href="#" class="model">
+        <div class="img">
+            <img src="./图片/1.jpg">
+            <div class="mark">
+                <h2>应天书院</h2>
+                <p>应天书院</p>
+            </div>
+        </div>
+        <div class="txt">应天书院</div>
+    </a>
+    <a href="#" class="model">
+        <div class="img">
+            <img src="./图片/2.jpg">
+            <div class="mark">
+                <h2>古南城门</h2>
+                <p>古南城门</p>
+            </div>
+        </div>
+        <div class="txt">古南城门</div>
+    </a>
+    <a href="#" class="model">
+        <div class="img">
+            <img src="./图片/3.jpg">
+            <div class="mark">
+                <h2>防御城墙</h2>
+                <p>防御城墙</p>
+            </div>
+        </div>
+        <div class="txt">防御城墙</div>
+    </a>
+    <a name="视频">
+        <video class="video" src="./商丘古城--夜景.mp4" controls></video>
+    </a>
+</div>
+<!-- 第六部分 -->
+<div class="wb">
+    <div class="imgs">
+        <img src="./图片/Title.png">
+        <img src="./图片/Title.png">
+        <img src="./图片/Title.png">
+    </div>
+    <div class="border"></div>
+    <a name="联系"></a>
+    <div class="wb1">
+        <img src="./图片/Title.png">
+        <p>商丘古城</p>
+        <p>河南省商丘市睢阳区</p>
+        <p>TEL : 010-123456789</p>
+        <p>QQ : 123456</p>
+        <p>Email : shangqiugucheng@foxmail.com</p>
+        <p>weibo : @shangqiuStudio</p>
+    </div>
+</div>
+<div class="hh"></div>
+</body>
+</html>
